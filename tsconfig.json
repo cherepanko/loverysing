@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+        "sourceMap": false,
+        "strict": true,
+        "strictNullChecks": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "strictBindCallApply": true,
+        "strictFunctionTypes": true,
+        "strictPropertyInitialization": false,
+        "module": "CommonJS",
+        "target": "ES2020",
+        "moduleResolution": "Node",
+        "allowJs": true,
+        "alwaysStrict": true,
+        "declaration": false,
+        "emitDecoratorMetadata": true,
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "outDir": "lib",
+        "skipLibCheck": true,
+        "esModuleInterop": true
+    },
+    "exclude": [
+        "./lib/**/*",
+        "./.eslint.js",
+        "./.gitignore",
+        "./src/static/*",
+        "./rollup.config.js",
+        "./node_modules/**/*"
+    ],
+    "include": [
+        "src/**/*.ts"
+    ]
+}
